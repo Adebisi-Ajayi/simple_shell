@@ -1,6 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define MAX_LENGTH 100
+/**
+ * Point - Represents a 2D point.
+ * @x: The X coordinate.
+ * @y: The Y coordinate.
+ * Return: nothing
+ */
+int Point(int x, int y)
+{
+	int x;
+	int y;
+}
 
 /**
  * add - Adds two integers.
