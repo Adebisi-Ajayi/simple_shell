@@ -1,17 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define MAX_LENGTH 100
-
 /**
- * struct Point - Represents a 2D point.
+ * Point - Represents a 2D point.
  * @x: The X coordinate.
  * @y: The Y coordinate.
+ * Return: nothing
  */
-struct Point
+int Point(int x, int y)
 {
 	int x;
 	int y;
-};
+}
 
 /**
  * add - Adds two integers.
@@ -22,7 +23,7 @@ struct Point
  */
 int add(int a, int b)
 {
-	return a + b;
+	return (a + b);
 }
 
 /**
@@ -41,10 +42,11 @@ void print_hello(void)
 int main(void)
 {
 	struct Point p;
+
 	p.x = 5;
 	p.y = 10;
-	
+
 	printf("Sum: %d\n", add(p.x, p.y));
 	print_hello();
-	return 0;
+	return (0);
 }
